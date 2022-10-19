@@ -15,7 +15,7 @@ RUN cd /src/collectd-5.12.0 \
         --enable-dns \
         --enable-ping \
         --enable-snmp \
-
+        --enable-debug \
     && make all install
 
 
